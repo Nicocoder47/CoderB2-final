@@ -1,0 +1,33 @@
+{
+  "name": "sindicato-beneficios-backend",
+  "version": "1.0.0",
+  "description": "Entrega Final Coderhouse Backend - Sindicato Beneficios",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node seed/benefits.seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "coderhouse",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "nodemailer": "^6.10.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
